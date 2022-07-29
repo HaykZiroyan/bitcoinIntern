@@ -1,0 +1,111 @@
+body, p, div, img {
+    margin: 0;
+    padding: 0;
+}
+.mainpage, .top, .lenuage, .money, .dashboard, .graths, .mediastop, .geograpicdatatop, .userinfotop, .same {
+    display: flex;
+    justify-content: space-between;
+}
+.allinfo {
+    width: 93%;
+}
+.menu {
+    width: 7%;
+    background-color: #171717;
+}
+.first, .second {
+    width: 100%;
+}
+.icon {
+    width: 58%;
+}
+.lenguage {
+    width: 9%;
+}
+.account {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+}
+.prof {
+    width: 16%;
+}
+.name {
+    font-size: 14px;
+    color: #636363;;
+}
+.logtime {
+    color:  #586784;
+}
+
+.signup, .profit, .comission, .pending {
+    width: 25%;
+
+}
+
+.signupnum, .profitnum, .comissionnum, .pendingnum {
+    font-size: 50px;
+    /* margin: 0; */
+}
+.signupnum {
+    color: #00acac;
+}
+.profitnum {
+    color: #1f7bb6;
+}
+.comissionnum {
+    color: #fbcf71;
+}
+.pendingnum {
+    color:  #00acac;
+}
+.medias, .geographicdata, .activemedias {
+    width: 33.33%;
+    padding: 10px;
+}
+.medias, .geographicdata {
+    background-color: #2A2A2A;
+}
+.activemedias {
+    background-color: #222222;
+}
+.graths p {
+    color: rgba(254,254,254,255);
+}
+.rows {
+    display: flex;
+    justify-content: center;
+}
+.moneytext {
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-left: 5px;
+    margin-top: -3px;
+    color: rgba(110,109,109,255);
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+td {
+    border: 1px solid #e9e9e9;
+    padding-left: 15px;
+}
+td p {
+    font-size: 14px;
+    color: #6a6a6a;
+    /* margin-left: 32px; */
+    width: 19%;
+    display: inline-block;
+    text-align: center;
+}
+.userinfotop {
+    background-color: #353535;
+}
+.userinfotop p {
+    width: 33.3%;
+}
+.mid {
+    border-left: 1px solid #464646;
+    border-right: 1px solid #464646;
+}
