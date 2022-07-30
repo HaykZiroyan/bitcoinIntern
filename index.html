@@ -8,22 +8,24 @@
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.cssmoney"> -->
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/e42f7ffb38.js" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+
 </head>
 <body>
     <div class="mainpage">
         <div class="menu">
-            <div class="menuelem">sf</div>
-            <div class="menuelem">sdf</div>
-            <div class="menuelem">fsd</div>
-            <div class="menuelem">sf</div>
-            <div class="menuelem">sfd</div>
-            <div class="menuelem">sfd</div>
-            <div class="menuelem">sdf</div>
-            <div class="menuelem">fsd</div>
-            <div class="menuelem">fsd</div>
-            <div class="menuelem">sdf</div>
-            <div class="menuelem">fsd</div>
-            <div class="menuelem">sdf</div>
+            <div onclick="clickedpage()"><img src="./images/1.jpg" alt=""></div>
+            <div><img src="./images/2.jpg" alt=""></div>
+            <div><img src="./images/3.jpg" alt=""></div>
+            <div><img src="./images/4.jpg" alt=""></div>
+            <div><img src="./images/5.jpg" alt=""></div>
+            <div><img src="./images/6.jpg" alt=""></div>
+            <div><img src="./images/7.jpg" alt=""></div>
+            <div><img src="./images/8.jpg" alt=""></div>
+            <div><img src="./images/9.jpg" alt=""></div>
+            <div><img src="./images/10.jpg" alt=""></div>
+            <div><img src="./images/11.jpg" alt=""></div>
         </div>
         <div class="allinfo">
             <div class="top">
@@ -31,16 +33,16 @@
                     <img src="" alt="">
                 </div>
                 <div class="lenguage">
-                    <img src="" alt="">
+                    <img src="./images/flag.jpg" class="flag" alt="">
                     <p>EN</p>
                 </div>
                 <div class="account">
-                    <img src="./prof.png" alt="" class="prof">
+                    <img src="./images/prof.png" alt="" class="prof">
                     <div class="profinfo">
                         <p class="name">hello, Max!</p>
                         <p class="logtime">last login Thu Mar 20 2021</p>
                     </div>
-                    <i class="fa-solid fa-caret-down"></i>
+                    <i class="fa-solid fa-caret-down" style="padding-top: 20px;"></i>
                 </div>
             </div>
             <div class="dashboard">
@@ -92,7 +94,8 @@
                         </div>
 
                     </div>
-                    <div></div>
+                    <canvas id="myChart"></canvas>
+
                 </div>
                 <div class="activemedias">
                     <div class="activemediatop">
@@ -289,5 +292,6 @@
             </div>
         </div>
     </div>
+    <script src="./main.js"></script>
 </body>
 </html>

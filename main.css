@@ -13,22 +13,43 @@ body, p, div, img {
     width: 7%;
     background-color: #171717;
 }
+.menu div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.menu div img {
+    width: 50%;
+    height: 40px;
+}
 .first, .second {
     width: 100%;
 }
 .icon {
     width: 58%;
 }
-.lenguage {
-    width: 9%;
-}
-.account {
-    width: 33%;
+
+.account, .icon, .lenguage {
+    padding-top: 10px;
+    padding-bottom: 10px;
     display: flex;
     justify-content: center;
 }
+.lenguage {
+    width: 9%;
+    border-left: 1px solid #e0e0e0;
+    border-right: 1px solid #e0e0e0;
+    padding-top: 30px;
+}
+.account {
+    width: 33%;
+}
 .prof {
-    width: 16%;
+    width: 14%;
+    border-radius: 50%;
+}
+.profinfo {
+    padding: 10px;
 }
 .name {
     font-size: 14px;
@@ -42,7 +63,11 @@ body, p, div, img {
     width: 25%;
 
 }
-
+.flag {
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+}
 .signupnum, .profitnum, .comissionnum, .pendingnum {
     font-size: 50px;
     /* margin: 0; */
@@ -90,6 +115,8 @@ table {
 td {
     border: 1px solid #e9e9e9;
     padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 td p {
     font-size: 14px;
@@ -108,4 +135,12 @@ td p {
 .mid {
     border-left: 1px solid #464646;
     border-right: 1px solid #464646;
+}
+.dashleft {
+    background-color: #ececec;
+    width: 73%;
+}
+.dashrigth {
+    background-color: #d8d8d8;
+    width: 27%;
 }
